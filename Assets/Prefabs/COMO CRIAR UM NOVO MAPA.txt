@@ -1,0 +1,15 @@
+**COMO FAZER UM NOVO MAPA**
+
+-Va em Prefabs
+-Duplique a [LEVEL TEMPLATE MAP] 
+-Crie o caminho com as prefabs de caminho
+-Adicione os waypoints e os posicione a cada curva
+-Em [GAME MANAGER] crie as waves adicionando um inimigo quantidade e spawn time
+-Coloque o dinheiro e vidas inicial de escolha
+-Troque os materiais de acordo com o mapa
+-Em Scenes Duplique a AR Scene Template e nomeie de acordo com o level exemplo "Level 01"
+-Em AR Session Origin adicione a prefab do level em Insert Object By Touch/Object Prefab
+-Agora na cena Level Select va em [UI CANVAS] e va ate os botoes
+-Duplique o botao e nos eventos Digite o nome do level correspondente
+-Em [LEVEL SELECTOR] adicione o novo botao na sequencia correta
+-Pronto!
